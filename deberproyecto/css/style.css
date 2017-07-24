@@ -1,0 +1,46 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    body{
+      background-color: #EFF8FB
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #E6E6E6;
+      padding: 10px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  #campos_usuario{
+	  display:block;
+  }
+  #campos_empresa{
+	  display:none;
+  }
+  #campos_proveedor{
+    display:none;
+  }
+
+  #imagen{
+    width:1000px;
+    height:500px;
+  }
+  #imagen1{
+    width:1000px;
+    height:500px;
+  }
+  
